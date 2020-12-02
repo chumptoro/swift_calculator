@@ -34,7 +34,7 @@ struct ContentView: View {
                 
                 
                 ForEach(button_names, id: \.self) { row in
-                    HStack (spacing: 9) {
+                    HStack (spacing: 10) {
                         ForEach(row, id: \.self) { button in
                             Text(button)
                             .font(.system(size: 32))
